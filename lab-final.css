@@ -1,0 +1,79 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 0 0 25px;
+}
+.chicken{
+    width: 30%;
+    border: 2px solid;
+    padding: 0 5px;
+    float: left;
+    background-color: gray;
+}
+.beef{
+    width: 30%;
+    border: 2px solid;
+    padding: 0 5px;
+    margin: 0 3%;
+    float: left;
+    background-color: gray;
+}
+.sushi{
+    width: 30%;
+    border: 2px solid;
+    padding: 0 5px;
+    margin-left: 1%;
+    float: left;
+    background-color: gray;
+}
+fieldset{
+    padding-bottom: 100px;
+}
+.r-chicken{
+    display: flex;
+    justify-content: flex-end;   
+}
+.r-beef{
+    display: flex;
+    justify-content: flex-end;
+       
+}
+.r-sushi{
+    display: flex;
+    justify-content: flex-end;   
+}
+.item-1{
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-right: -6px;
+    background-color: lightcoral;
+    
+}
+.item-2{
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100px;
+    text-align: center;
+    margin-right: -6px;
+    background-color: #c14544;
+    color: wheat;
+}
+.item-3{
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-right: -6px;
+    background-color: #e5d099;
+    
+}
